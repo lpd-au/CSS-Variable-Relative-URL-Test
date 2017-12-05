@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Relative URL Test</title>
+  <link rel="stylesheet" type="text/css" href="styles/test.css" />
+</head>
+<body>
+  <section class="tick svg">
+    <h2>Relative SVG (/styles/../graphics/tick.svg)</h2>
+    <p>The area below should contain a tick.</p>
+    <div></div>
+  </section>
+  <section class="tick png">
+    <h2>Relative PNG (/styles/../graphics/tick.png)</h2>
+    <p>The area below should contain a tick.</p>
+    <div></div>
+  </section>
+  <section class="cross svg">
+    <h2>Relative SVG (/styles/./graphics/cross.svg)</h2>
+    <p>The area below should be empty.</p>
+    <div></div>
+  </section>
+  <section class="cross png">
+    <h2>Relative PNG (/styles/./graphics/cross.png)</h2>
+    <p>The area below should be empty.</p>
+    <div></div>
+  </section>
+</body>
+</html>

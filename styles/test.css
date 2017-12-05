@@ -1,0 +1,22 @@
+section > div {
+    width: 120px;
+    height: 120px;
+    background-size: contain;
+    background-image: var(--bg-img);
+}
+
+section.tick.svg > div {
+    --bg-img: url('../graphics/tick.svg');
+}
+
+section.tick.png > div {
+    --bg-img: url('../graphics/tick.png');
+}
+
+section.cross.svg > div {
+    --bg-img: url('./graphics/cross.svg');
+}
+
+section.cross.svg > div {
+    --bg-img: url('./graphics/cross.png');
+}
