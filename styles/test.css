@@ -17,6 +17,6 @@ section.cross.svg > div {
     --bg-img: url('./graphics/cross.svg');
 }
 
-section.cross.svg > div {
+section.cross.png > div {
     --bg-img: url('./graphics/cross.png');
 }
